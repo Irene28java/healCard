@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="es"
+<head>
+    <meta charset="UTF-8">
+    <title>Iniciar Sesion - Calei</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css')}}"
+</head>
+<body>
+    <h1>Iniciar sesion</h1>
+    <form method="post">
+        <label>Usuario: <input type="text" name="username" required></label><br>
+        <label>Contraseña: <input type="password" name="password" required></label><br>
+        <button type="submit">Entrar</button>
+    </form>
+</body>
+</html>

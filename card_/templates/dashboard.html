@@ -1,0 +1,6 @@
+<div class="card">
+    <h2{{    card.holder   }}></h2> 
+    <p>**** **** ****  {{ card.number[-4]  }}</p>
+    <p>Status:: {{   'VPN activada' if card.vpn_enabled else 'Desactivada' }}</p>
+    <a> href="/vnp/{{ card.id }}/toggle">Cambiar VPN</a>
+</div>
