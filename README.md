@@ -1,4 +1,4 @@
-# healCard Python
+# CardBank Python
 
 this project is focused on building a secure, multi.platform mobile application desing to improvide bank security and user experience.
 The app utilizes real time databases and cuttinedge cibersecurity technologies to ensure user data proteccion. Features include account monitoring,
